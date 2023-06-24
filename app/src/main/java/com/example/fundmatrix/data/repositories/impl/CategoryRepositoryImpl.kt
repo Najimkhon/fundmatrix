@@ -1,8 +1,9 @@
-package com.example.fundmatrix.data.repositories
+package com.example.fundmatrix.data.repositories.impl
 
 import androidx.lifecycle.LiveData
 import com.example.fundmatrix.data.dao.CategoryDao
 import com.example.fundmatrix.data.models.Category
+import com.example.fundmatrix.data.repositories.CategoryRepository
 
 class CategoryRepositoryImpl(private val categoryDao: CategoryDao) : CategoryRepository {
     override suspend fun addCategory(category: Category) {

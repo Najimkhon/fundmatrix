@@ -3,11 +3,11 @@ package com.example.fundmatrix.di
 import androidx.room.Room
 import com.example.fundmatrix.data.db.AppDatabase
 import com.example.fundmatrix.data.repositories.CategoryRepository
-import com.example.fundmatrix.data.repositories.CategoryRepositoryImpl
+import com.example.fundmatrix.data.repositories.impl.CategoryRepositoryImpl
 import com.example.fundmatrix.data.repositories.TransactionRepository
-import com.example.fundmatrix.data.repositories.TransactionRepositoryImpl
+import com.example.fundmatrix.data.repositories.impl.TransactionRepositoryImpl
 import com.example.fundmatrix.data.repositories.UserRepository
-import com.example.fundmatrix.data.repositories.UserRepositoryImpl
+import com.example.fundmatrix.data.repositories.impl.UserRepositoryImpl
 import org.koin.dsl.module
 
 val databaseModule = module {

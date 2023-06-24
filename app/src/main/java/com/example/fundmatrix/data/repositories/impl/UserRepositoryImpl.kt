@@ -1,8 +1,9 @@
-package com.example.fundmatrix.data.repositories
+package com.example.fundmatrix.data.repositories.impl
 
 import androidx.lifecycle.LiveData
 import com.example.fundmatrix.data.dao.UserDao
 import com.example.fundmatrix.data.models.User
+import com.example.fundmatrix.data.repositories.UserRepository
 
 class UserRepositoryImpl(
     private val userDao: UserDao

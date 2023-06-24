@@ -1,8 +1,9 @@
-package com.example.fundmatrix.data.repositories
+package com.example.fundmatrix.data.repositories.impl
 
 import androidx.lifecycle.LiveData
 import com.example.fundmatrix.data.dao.TransactionDao
 import com.example.fundmatrix.data.models.Transaction
+import com.example.fundmatrix.data.repositories.TransactionRepository
 
 class TransactionRepositoryImpl(private val transactionDao: TransactionDao) : TransactionRepository {
     override suspend fun addTransaction(transaction: Transaction) {
